@@ -1,10 +1,10 @@
 ## Project Structure
 
 # Init Project
-python -m venv venv
-venv\Scripts\activate.bat
-python -m pip install pip setuptools wheel
-python -m pip install -e .
+- python -m venv venv
+- venv\Scripts\activate.bat
+- python -m pip install pip setuptools wheel
+- python -m pip install -e .
 
 # Params to train model
 from config import config
